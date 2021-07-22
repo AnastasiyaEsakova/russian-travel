@@ -12,7 +12,6 @@ html { font-family: 'Inter', sans-serif; }
 }
 .page{
   margin: 0 auto;
-
 }
 
 /* хедер */
@@ -154,6 +153,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 .place{
   max-width: 100%;
+  max-height: 660px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -163,7 +163,8 @@ html { font-family: 'Inter', sans-serif; }
   "image paragraph_2"
   ;
   margin-bottom: 80px;
-
+  align-items: center;
+  gap: 48px 40px;
 }
 .place__title{
   font-weight: 900;
@@ -187,6 +188,7 @@ html { font-family: 'Inter', sans-serif; }
   line-height: 12px;
   letter-spacing: 2px;
   margin: 0;
+  margin-bottom: 12px;
 }
 .place__link{
   color: #fff;
@@ -196,6 +198,7 @@ html { font-family: 'Inter', sans-serif; }
   text-decoration-line: underline;
   opacity: 1;
   transition: opacity .3s linear;
+
 }
 .place__link:hover{
   opacity: .5;
@@ -206,6 +209,7 @@ html { font-family: 'Inter', sans-serif; }
   line-height: 163%;
   margin: 0;
   grid-area: paragraph_1;
+  align-self: start;
 }
 .place__paragraph:nth-of-type(2n){
   grid-area: paragraph_2;
