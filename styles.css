@@ -163,12 +163,10 @@ html { font-family: 'Inter', sans-serif; }
   max-height: 660px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
   grid-template-rows: 1fr 2fr;
   grid-template-areas:
   "title website"
   "image text"
-  /* "image paragraph_2" */
   ;
   margin-bottom: 80px;
   align-items: center;
@@ -527,9 +525,7 @@ transition: opacity .3s linear;
     margin:0 16px;
     font-size: 16px;
   }
-  .place__paragraph:nth-of-type(1n){
-    margin-bottom: 27px;
-  }
+
   .cover{
     max-width: 100%;
   }

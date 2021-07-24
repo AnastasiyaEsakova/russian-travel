@@ -12,3 +12,43 @@
   align-items: center;
   gap: 48px 40px;
 }
+.place:nth-of-type(5n){
+  margin-bottom: 92px;
+}
+@media screen and (max-width: 1024px){
+  .place{
+    column-gap: 32px;
+  }
+}
+@media screen and (max-width: 768px){
+  .place{
+    column-gap: 28px;
+    margin-bottom: 73px;
+    max-height: 581px;
+  }
+  .place:nth-of-type(5n){
+    margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 584px){
+  .place{
+    margin-bottom: 73px;
+    display: flex;
+    flex-direction: column;
+    max-height: 1042px;
+  }
+  .place:nth-of-type(5n){
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 320px){
+  .place{
+    margin-bottom: 73px;
+    display: flex;
+    flex-direction: column;
+    max-height: 1042px;
+  }
+  .place:nth-of-type(5n){
+    margin-bottom: 0;
+  }
+}
