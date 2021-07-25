@@ -12,6 +12,11 @@
     width: 47.2%;
   }
 }
+@media screen and (max-width: 678px){
+  .place__title{
+    width: 100%;
+  }
+}
 @media screen and (max-width: 584px){
   .place__title{
     align-self: self-start;
@@ -22,5 +27,6 @@
     font-size: 32px;
     line-height: 35px;
     width: 288px;
+    margin: 0 auto;
   }
 }
