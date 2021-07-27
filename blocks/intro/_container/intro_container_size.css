@@ -1,22 +1,22 @@
-.intro_position{
+.intro_container_size{
   max-width: 690px;
   margin-left:148px;
   margin-right: 442px;
 }
 @media screen and (max-width: 1024px){
-  .intro_position{
+  .intro_container_size{
     margin-left: 48px;
     margin-right: 286px;
   }
 }
 @media screen and (max-width: 768px){
-  .intro_position{
+  .intro_container_size{
     max-width: 720px;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 320px){
-  .intro_position{
+  .intro_container_size{
     max-width: 288px;
   }
 }

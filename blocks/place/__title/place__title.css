@@ -6,29 +6,27 @@
   margin: 0;
   grid-area: title;
   align-self: end;
+  max-width: 460px;
+}
+@media screen and (max-width: 1024px){
+  .place__title{
+    max-width: 440px;
+  }
 }
 @media screen and (max-width: 768px){
   .place__title{
     font-size: 42px;
     line-height: 46px;
-    width: 47.2%;
-  }
-}
-@media screen and (max-width: 678px){
-  .place__title{
-    width: 100%;
+    max-width: 330px;
   }
 }
 @media screen and (max-width: 584px){
   .place__title{
     align-self: self-start;
-  }
-}
-@media screen and (max-width: 320px){
-  .place__title{
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
-    margin: 0 auto;
+    max-width: 288px;
+    margin-left: 16px;
   }
 }
+

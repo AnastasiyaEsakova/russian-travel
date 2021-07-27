@@ -3,11 +3,9 @@
   display: flex;
   flex-direction: column;
   align-self: start;
-  max-width: 994px;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 400px){
   .place__text{
-    max-width: 939px;
+    margin: 0 auto;
   }
 }
-
