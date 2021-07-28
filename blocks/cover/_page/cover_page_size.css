@@ -1,0 +1,22 @@
+.cover_page_size{
+  width: calc(100% - 96px);
+  min-height: 740px;
+  position: relative;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px){
+  .cover_page_size{
+    min-height: 640px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+.cover_page_size{
+  min-height: 480px;
+}
+}
+@media screen and (max-width: 490px){
+  .cover_page_size{
+    min-height: 200px;
+  }
+}

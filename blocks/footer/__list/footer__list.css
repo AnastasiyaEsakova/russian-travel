@@ -2,5 +2,8 @@
   .footer__list{
     margin-bottom: 32px;
   }
+  .footer__list:last-of-type{
+    margin-bottom: 0;
+  }
 }
 

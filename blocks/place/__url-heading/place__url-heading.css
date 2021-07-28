@@ -9,3 +9,13 @@
   margin-bottom: 12px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 700px){
+  .place__url-heading{
+    align-self: center;
+  }
+}
+@media screen and (max-width: 400px){
+  .place__url-heading{
+    align-self: flex-start;
+  }
+}

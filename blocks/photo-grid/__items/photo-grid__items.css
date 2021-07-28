@@ -18,6 +18,7 @@
     gap: 16px;
     grid-template-rows: repeat(auto-fit, minmax(264px, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    margin-bottom: 88px;
   }
 }
 @media screen and (max-width: 416px){
@@ -25,6 +26,7 @@
     grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
+    margin-bottom: 64px;
   }
 }
 

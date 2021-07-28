@@ -22,14 +22,17 @@
     font-size: 16px;
     max-width: 352px;
   }
+    .place__paragraph:first-of-type{
+    margin-bottom: 25px;
+  }
+  .place_container_position:last-of-type .place__paragraph{
+    margin: 0;
+  }
 }
 @media screen and (max-width: 400px){
   .place__paragraph{
     margin:0 auto;
     max-width: 288px;
-  }
-  .place__paragraph:first-of-type{
-    margin-bottom: 25px;
   }
 }
 

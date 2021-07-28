@@ -6,9 +6,18 @@
   text-align: center;
   margin: 0 auto;
   padding-top: 32px;
-  position: relative;
-  z-index: 2;
   max-width: 360px;
+  padding-bottom: 245px;
+}
+@media screen and (max-width: 1024px){
+  .cover__subtitle{
+    padding-bottom: 195px;
+  }
+}
+@media screen and (max-width: 768px){
+  .cover__subtitle{
+    padding-bottom: 115px;
+  }
 }
 @media screen and (max-width: 490px){
   .cover__subtitle{
@@ -16,5 +25,6 @@
     line-height: 16px;
     padding-top: 16px;
     max-width: 288px;
+    padding-bottom: 33px;
   }
 }
