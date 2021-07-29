@@ -25,7 +25,7 @@
     .place__paragraph:first-of-type{
     margin-bottom: 25px;
   }
-  .place_container_position:last-of-type .place__paragraph{
+  .place_page_position:last-of-type .place__paragraph{
     margin: 0;
   }
 }
