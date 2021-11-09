@@ -14,5 +14,5 @@
 ## Дальнейшая разработка
 Настроить страницу для полного использования, добавить возможность пользователям задавать вопросы, подключение к серверу.
 
-[Демоверсия сайта](https://anastasiyaesakova.github.io/russian-travel/index.html)
+## [Демоверсия сайта](https://anastasiyaesakova.github.io/russian-travel/index.html)
 
